@@ -1,0 +1,1 @@
+spark-submit --master spark://mbp-de-marwen.home:7077  --driver-java-options "-Dlog4j.configuration=file:///tmp/log4j.properties" --files /tmp/log4j.properties --class sparkTest.logFact.Main logFact-0.0.1-SNAPSHOT.jar

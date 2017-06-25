@@ -34,6 +34,13 @@
     <artifactId>spark-csv_2.10</artifactId>
     <version>1.5.0</version>
 			</dependency>
+			
+			<dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.16</version>
+    </dependency>
+			
 		
 	
 						
@@ -181,7 +188,7 @@
 								<!-- <scp localFile="${project.basedir}/target/qos-spark-1.0.jar" 
 									remoteToFile="root@192.168.203.156:/usr/sanss" verbose="true" keyfile="C:\Users\shengw\.ssh\192.168.203.156\id_rsa" 
 									passphrase=""> </scp> -->
-								<scp localFile="${project.basedir}/target/logFact-0.0.1-SNAPSHOT.jar"
+								<scp localFile="${project.basedir}/target/logFact-0.0.1-SNAPSHOT-jar-with-dependencies.jar"
 									remoteToFile="mhasnaoui@ws44.tl.teralab-datascience.fr:/home/mhasnaoui/testForMarwen" verbose="true"
 									port="2230"
 									password="fg29!Rtu" trust="true">
